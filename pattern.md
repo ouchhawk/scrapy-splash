@@ -11,9 +11,9 @@ Increasing range to 18 should be considered because we will miss following servi
 | NGS Test development| Yes | meetings to share the latest developments
 | TEM Services| Yes|system administration services
 | GI Permeability (In Vitro)| Yes | strategies include poor permeability
+
 Here categories start witn 'NJ', 'PA', 'NGS', 'TEM', 'GI' are falsy results. If we check space before and after them those categories won't be matched because the pattern finds them in a whole word. 
 
----
 | New categories with .{0,17}  | False Result?    | Matches 
 |----------------|-------------------------------|---|
 |Variable Data| No|variable pharmacokinetic data
@@ -22,7 +22,7 @@ Here categories start witn 'NJ', 'PA', 'NGS', 'TEM', 'GI' are falsy results. If 
 |Heart disease| No|heart failure, kidney disease
 |Candidate Evaluation|Yes|candidate. Loading... The evaluation
 |CA License| Yes| applications for import licenses
----
+
 We can exclude 'CA License' in the same way above.
 
 |New categories with .{0,18}   | False Result?    | Matches
@@ -33,4 +33,5 @@ We can exclude 'CA License' in the same way above.
 |High Pressure Chemistry (>100 psi)|No|high-pressure/high-temperature chemistry
 |In Vivo Toxicity|No|in-vivo acute or chronic toxicity
 |IND Submissions| Yes|industry and related submissions
-Likewise can exclude 'IND Submissions' in the same way above.
+
+Likewise can exclude 'IND Submissions' in the same way above and add 5 new categories.
