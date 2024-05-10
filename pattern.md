@@ -1,3 +1,5 @@
+### Comparison of Search Results with regex patterns .{0,15}, .{0,16}, .{0,17} and .{0,18}
+
 Increasing range to 18 should be considered because we will miss following service categories if we use .{0,15} :
 
 | New categories with .{0,16}  | False Result?    | Matches
